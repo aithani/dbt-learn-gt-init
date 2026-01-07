@@ -11,6 +11,7 @@ models:
   - name: stg_jaffle_shop__orders
     columns:
     - name: order_id
+      description: Primary key for order model
       data_tests:
         - unique
         - not_null
